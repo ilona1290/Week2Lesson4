@@ -19,7 +19,7 @@ namespace FirstHomework
             string lastName;
             int age;
             Gender gender;
-            int pesel;
+            long pesel;
             long numberOfWorker;
         }
 
@@ -74,7 +74,7 @@ namespace FirstHomework
             string address = Console.ReadLine();
 
             Console.Write("Numer telefonu: ");
-            int phoneNumber = Int32.Parse(Console.ReadLine());
+            long phoneNumber = long.Parse(Console.ReadLine());
 
             Console.Write("Adres Email: ");
             string email = Console.ReadLine();
