@@ -20,7 +20,7 @@ namespace FirstHomework
             int age;
             Gender gender;
             int pesel;
-            int numberOfWorker;
+            long numberOfWorker;
         }
 
         public void Ex2()
